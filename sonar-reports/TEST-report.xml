@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='SonarTestUITests.xctest' tests='3' failures='0'>
+  <testsuite name='SonarTestTests.SonarTestTests' tests='1' failures='0'>
+    <testcase classname='SonarTestTests.SonarTestTests' name='testExample' time='0.003'/>
+  </testsuite>
+  <testsuite name='SonarTestUITests.SonarTestUITests' tests='2' failures='0'>
+    <testcase classname='SonarTestUITests.SonarTestUITests' name='testExample' time='6.908'/>
+    <testcase classname='SonarTestUITests.SonarTestUITests' name='testLaunchPerformance' time='46.713'/>
+  </testsuite>
+</testsuites>
