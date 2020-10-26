@@ -1,11 +1,12 @@
 node {
-  stage('SCM') {
+  stage('Checkout') {
     git 'https://github.com/fengzhihao123/SonarTest.git'
   }
+
   stage('SonarQube analysis') {
     def scannerHome = tool 'SonarQube_Scanner';
     withSonarQubeEnv('MySonar') { // If you have configured more than one global server connection, you can specify its name
-      sh "${scannerHome}/bin/sonar-scanner"
+      sh "run-sonar-swift.sh"
     }
   }
 }
