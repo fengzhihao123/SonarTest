@@ -1,4 +1,4 @@
-node('iOS') {
+node {
   stage('Check Out') {
     git 'https://github.com/fengzhihao123/SonarTest.git'
   }
