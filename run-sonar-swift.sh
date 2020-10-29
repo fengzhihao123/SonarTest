@@ -29,7 +29,7 @@ SWIFTLINT_CMD=swiftlint
 TAILOR_CMD=tailor
 XCPRETTY_CMD=xcpretty
 LIZARD_CMD=lizard
-XCODEBUILD_CMD=$2
+XCODEBUILD_CMD=xcodebuild
 
 
 trap "echo 'Script interrupted by Ctrl+C'; stopProgress; exit 1" SIGHUP SIGINT SIGTERM
