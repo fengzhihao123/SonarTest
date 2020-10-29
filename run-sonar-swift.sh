@@ -144,7 +144,7 @@ function runCommand() {
 vflag=""
 nflag=""
 unittests="on"
-swiftlint="off"
+swiftlint="on"
 tailor="off"
 lizard="on"
 oclint="off"
